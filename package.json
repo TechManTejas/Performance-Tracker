@@ -1,0 +1,18 @@
+{
+  "name": "performance-tracker",
+  "version": "1.0.0",
+  "description": "A package to track and display real-time resource usage on websites.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "author": "Tejas Vaij",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.9.1"
+  },
+  "devDependencies": {
+    "vite": "^3.2.11"
+  }
+}

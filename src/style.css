@@ -1,0 +1,26 @@
+#performance-widget {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#performance-widget h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+#performance-widget canvas {
+    margin-bottom: 10px;
+}
+
+#performance-widget ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+#performance-widget ul li {
+    font-size: 12px;
+    margin: 4px 0;
+}
