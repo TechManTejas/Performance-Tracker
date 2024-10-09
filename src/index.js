@@ -1,4 +1,5 @@
-// src/index.js
+import Chart from 'chart.js/auto';
+import './style.css';
 
 export function getResourceUsage() {
     const resources = window.performance.getEntriesByType('resource');
