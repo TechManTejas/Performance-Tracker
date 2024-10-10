@@ -2,18 +2,15 @@
 
 A real-time performance tracking widget for websites that displays network resource usage, page load times, and memory usage on a floating UI.
 
-## Installation
-
-```bash
-npm install performance-tracker-widget
+Here’s a rewritten and well-formatted version of the installation section:
 
 ---
 
-# Performance Tracker Widget
+## Performance Tracker Widget
 
-A package to track and display real-time resource usage on websites. The performance tracker widget shows CPU, memory, and other relevant metrics, using `chart.js` for visualizations. The widget is built using Vite for fast development and optimized builds.
+The **Performance Tracker Widget** is an npm package designed to track and display real-time resource usage on websites. It visualizes metrics such as CPU and memory usage using `Chart.js` and leverages **Vite** for fast development and optimized builds.
 
-## Table of Contents
+### Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,14 +20,34 @@ A package to track and display real-time resource usage on websites. The perform
 
 ## Installation
 
-To get started with the `performance-tracker-widget`, clone the repository and install the dependencies.
+Follow the steps below to install and set up the **Performance Tracker Widget**:
 
-### Clone the Repository
+### Step 1: Install the package
+
+You can install the package from npm by running the following command in your terminal:
+
+```bash
+npm install performance-tracker-widget
+```
+
+### Step 2: Clone the repository
+
+Alternatively, you can clone the project repository and manually install the dependencies:
 
 ```bash
 git clone https://github.com/your-username/performance-tracker-widget.git
 cd performance-tracker-widget
 ```
+
+Once you’re inside the project directory, install the required dependencies:
+
+```bash
+npm install
+```
+
+---
+
+This version enhances readability, adds clarity, and maintains a professional tone while ensuring technical accuracy.
 
 ## Usage
 
