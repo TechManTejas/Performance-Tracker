@@ -7,9 +7,6 @@ A real-time performance tracking widget for websites that displays network resou
 ```bash
 npm install performance-tracker-widget
 
-
-Here’s the markdown documentation for your project. This will cover an introduction, setup, usage, and build instructions.
-
 ---
 
 # Performance Tracker Widget
