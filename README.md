@@ -77,9 +77,6 @@ Make sure to include a `div` with the ID `performance-container` in your HTML.
 
 This will render the widget inside the container and display real-time performance data, such as memory usage and CPU stats.
 
-## Development
-
-To start developing with the widget, you can run the development server provided by Vite.
 
 ### Start the Development Server
 
@@ -113,22 +110,8 @@ export default defineConfig({
 
 The configuration builds the project using the `es` module format and specifies the entry file as `src/main.js`.
 
-## Build
-
-To create a production-ready build, run:
-
-```bash
-npm run build
-```
-
-This will bundle the code and output the production files in the `dist/` directory. You can then deploy the widget by including the generated files in your web application.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-### Author
-
-**Tejas Vaij**
