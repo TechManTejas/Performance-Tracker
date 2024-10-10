@@ -1,10 +1,3 @@
-# Performance Tracker Widget
-
-A real-time performance tracking widget for websites that displays network resource usage, page load times, and memory usage on a floating UI.
-
-Here’s a rewritten and well-formatted version of the installation section:
-
----
 
 ## Performance Tracker Widget
 
