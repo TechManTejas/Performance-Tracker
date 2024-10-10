@@ -1,6 +1,6 @@
 {
   "name": "performance-tracker-widget",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A package to track and display real-time resource usage on websites.",
   "main": "src/index.js",
   "scripts": {
