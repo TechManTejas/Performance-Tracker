@@ -32,19 +32,6 @@ git clone https://github.com/your-username/performance-tracker-widget.git
 cd performance-tracker-widget
 ```
 
-### Install Dependencies
-
-Run the following command to install the required dependencies.
-
-```bash
-npm install
-```
-
-This will install:
-
-- `chart.js` for creating charts to display performance data.
-- `vite` as a bundler for development and production builds.
-
 ## Usage
 
 To use the performance tracker widget on your website:
@@ -78,40 +65,3 @@ Make sure to include a `div` with the ID `performance-container` in your HTML.
 This will render the widget inside the container and display real-time performance data, such as memory usage and CPU stats.
 
 
-### Start the Development Server
-
-```bash
-npm run dev
-```
-
-This command will start Vite in development mode, allowing you to make changes and see live updates in the browser.
-
-### Vite Configuration
-
-The `vite.config.js` file is set up to bundle the project with the following configuration:
-
-```javascript
-// vite.config.js
-
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  build: {
-    rollupOptions: {
-      input: 'src/main.js',
-      output: {
-        format: 'es',
-        entryFileNames: 'index.js',
-      },
-    },
-  },
-});
-```
-
-The configuration builds the project using the `es` module format and specifies the entry file as `src/main.js`.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
